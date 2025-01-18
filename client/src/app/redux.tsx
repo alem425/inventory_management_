@@ -1,5 +1,4 @@
-"use client";
-
+/* eslint-disable @typescript-eslint/no-explicit-any, no-unused-vars */
 import { useRef } from "react";
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import {
@@ -29,13 +28,13 @@ import createWebStorage from "redux-persist/lib/storage/createWebStorage";
 // This set ups our local storage state
 const createNoopStorage = () => {
   return {
-    getItem(__: string) {
+    getItem(_key: any) {
       return Promise.resolve(null);
     },
-    setItem(__: string, value: string) {
+    setItem(_key: any, value: any) {
       return Promise.resolve(value);
     },
-    removeItem(__: string) {
+    removeItem(_key: any) {
       return Promise.resolve();
     },
   };
