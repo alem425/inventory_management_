@@ -4,8 +4,6 @@ import React, { useState } from "react";
 import {
   ResponsiveContainer,
   BarChart,
-  LineChart,
-  Line,
   XAxis,
   YAxis,
   Tooltip,

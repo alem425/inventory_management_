@@ -1,6 +1,5 @@
 // Import necessary functions from Redux Toolkit's RTK Query package
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { NutIcon } from "lucide-react";
 
 export interface Product{
    productId: string;

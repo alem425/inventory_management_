@@ -8,7 +8,6 @@ import {
   Layout,
   LucideIcon,
   Menu,
-  Settings,
   SlidersHorizontal,
   User,
 } from "lucide-react";
