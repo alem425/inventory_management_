@@ -80,8 +80,8 @@ const Navbar = () => {
             <Image
               src="https://s3-inventorymanagement4.s3.us-east-1.amazonaws.com/alex.JPG"
               alt="Profile"
-              width={50}
-              height={50}
+              width={33}
+              height={25}
               className="rounded-full h-full object-cover"
             />
             <span className="font-semibold">Alex Morgan</span>
